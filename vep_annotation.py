@@ -2,9 +2,6 @@ import re
 import docker
 import os
 
-
-#https://faun.pub/prototyping-a-parallel-computing-cluster-using-docker-25ea836a269b
-
 VEP_DOCKER_IMAGE = "ensemblorg/ensembl-vep:release_101.0"
 
 CONTAINER_INPUT_FILE = "/opt/vep/src/ensembl-vep/input.vcf"
@@ -138,5 +135,3 @@ def touch(filepath):
 
 
 
-for input_file in input_file_list:
-    m
